@@ -148,8 +148,8 @@ ALLOWED_HOSTS = ['*']
 # STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 
-# CORS_ORIGIN_ALLOW_ALL = True
-# CORS_ALLOW_CREDENTIALS = True
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_CREDENTIALS = True
 
 # import os
 # BASE_DIR = os.path.dirname(os.path.abspath(__file__))
