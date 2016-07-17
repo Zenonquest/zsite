@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4119eff9-17f3-4e1e-84d5-7cc182d7ec02" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/.ebextensions/01-zsite.config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/.elasticbeanstalk/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/checkers/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/checkers/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/checkers/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/checkers/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/checkers/static/checkers/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/checkers/static/checkers/default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/checkers/static/checkers/images/black.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/checkers/static/checkers/images/gray.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/checkers/static/checkers/images/me1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/checkers/static/checkers/images/me1k.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/checkers/static/checkers/images/me2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/checkers/static/checkers/images/me2k.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/checkers/static/checkers/images/you1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/checkers/static/checkers/images/you1k.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/checkers/static/checkers/images/you2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/checkers/static/checkers/images/you2k.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/checkers/templates/checkers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/checkers/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/checkers/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/checkers/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/static/polls/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/static/polls/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/static/polls/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/static/polls/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/static/polls/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/static/polls/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/static/polls/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/static/polls/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/static/polls/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/static/polls/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/static/polls/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/static/polls/images/BrainPicNpr.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/static/polls/images/Frozen Creek.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/static/polls/images/americanspatter.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/static/polls/images/happy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/static/polls/images/woodbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/static/polls/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/static/polls/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/static/polls/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/static/polls/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/static/polls/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/templates/polls/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/templates/polls/blog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/templates/polls/contacts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/templates/polls/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/templates/polls/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/templates/polls/questions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/templates/polls/results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/templates/polls/thanks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/polls/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/scraper/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/scraper/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/scraper/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/scraper/migrations/0002_auto_20151115_1512.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/scraper/migrations/0003_auto_20151115_1555.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/scraper/migrations/0004_remove_sitelink_link_html.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/scraper/migrations/0005_auto_20151122_1504.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/scraper/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/scraper/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/scraper/notepad.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/scraper/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/scraper/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/scraper/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/templates/admin/base_site.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/templates/admin/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/templates/scraper/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/templates/scraper/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/zsite/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/zsite/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/zsite/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk/zsite/wsgi.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk" afterPath="$PROJECT_DIR$/Old/$R94VTW6.elasticbeanstalk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zsite/settings.py" afterPath="$PROJECT_DIR$/zsite/settings.py" />
+    </list>
+    <ignored path="zsite.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="zsite" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.30560273">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.manage">
+    <configuration default="false" name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zsite" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zsite" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zsite" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zsite" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zsite" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zsite" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zsite" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.manage" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17913593" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30560273">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
