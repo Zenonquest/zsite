@@ -116,7 +116,6 @@ li a {
 /*Edited body from Codecademy*/
 body{
   background-color:#202024;
-	/*background:  url('images/woodbg.gif') no-repeat center center fixed;*/
   -webkit-background-size: cover; /* For WebKit*/
   -moz-background-size: cover;    /* Mozilla*/
   -o-background-size: cover;      /* Opera*/
@@ -253,7 +252,6 @@ body{
 
 .jumbotron-first{
   background-color: black;
-  /*background-image: url('images/americanspatter.jpg'); */
   height:800px;
   background-size:100%;
   margin-top:-15px;
