@@ -1,0 +1,87 @@
+
+{% load staticfiles %}
+<!--Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+<!--from codecademy-->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<!--from codecademy-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
+<!--bootstrap-->
+<link rel="stylesheet" href="{% static 'polls/css/bootstrap.min.css' %}" />
+<!--style.css-->
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+
+<body>
+	<!--menu is from codecademy-->
+	<div class="menu">
+	      
+	      <!-- Menu icon -->
+	      <div class="icon-close">
+	        <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
+	      </div>
+
+	      <!-- Menu -->
+	      <ul>
+	      	<li><a href={% url 'polls:index' %}>Home</a></li>
+	        <li><a href="about">About</a></li>
+	        <li><a href="blog">Blog</a></li>
+	        <li><a href="questions">Questions</a></li>
+	        <li><a href="contacts">Contact</a></li>
+	        <li><a href={% url 'scraper:index' %}>News</a></li>
+	      </ul>
+	</div>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	    <!--icon-menu from codecademy-->
+			<div class="icon-menu">
+		        <i class="fa fa-bars"></i>
+		        Zenon Q. Anderson
+		    </div>
+	      <!--<a class="navbar-brand" href={% url 'polls:index' %}>Zenon Q Anderson</a>-->
+	    </div>
+	    <div>
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href=''>Contact</a></li>
+	        <!--<li><a href="{% url 'polls:index' %}">{{ site.site_text}}</a></li>-->
+	        <li><a href="{% url 'scraper:index' %}">Web Scraper</a></li> 
+	        <li><a href="{% url 'polls:questions' %}">Polls</a></li> 
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+	  <!--<img class= "pull-right" src="{% static 'polls/images/happy.jpg' %}">-->
+
+	<h1>Contact Info</h1> 
+
+	<!--Copy of django tutorial-->
+	<div class = "container">
+
+	<!-- Personal Button-->
+	<div class = "container">
+
+	<!--Text Body-->
+	<div class="container1">
+	
+	<h3>Email:</h3>
+	<p>Zenonquest@gmail.com</p>
+	<h3>Phone:</h3>
+	<p>(408) 313-0031 </p>
+	<img src = "{% static 'polls/images/happy.jpg' %}" class= "img-circle">
+	
+	</div>
+
+	<!-- From Codecademy-->
+	<script src="{% static '//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js' %}"></script>
+
+	<!-- Bootstrap-->
+	<script src="{% static '//http://code.jquery.com/jquery-1.11.3.min.js' %}"></script>
+	<script src="{% static 'polls/js/bootstrap.min.js' %}"></script>
+
+	<!--app.js-->
+	<script src="{% static 'polls/js/app.js'  %}"></script>
+
+</body>

@@ -1,0 +1,21 @@
+{% extends "scraper/base.html" %}
+{% block content %}
+<div class="container index-head-container">
+<h1>My Top News</h1>
+</div>
+
+<div class="sitecontainer">
+	{% if top_news %}
+	<ul id="site-list">
+	{% for site in top_news %}
+		<div class = "single-site">
+			<a href="{% url 'scraper:detail' site.id %}">{{site.name}}</a><div class = "pubdate">{{site.pub_date}}</div>
+		</div>
+	{% endfor %}
+	</ul>
+	{% else %}
+		<p>No sites are available.</p>
+	{% endif %}
+</div>
+
+{% endblock %}

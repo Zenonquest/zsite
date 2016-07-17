@@ -1,0 +1,38 @@
+{% extends "scraper/base.html" %}
+{% block content %}
+
+<div class="container detail-head-container">
+<h1>{{ site.name }}</h1>
+<!--<h2>{{ sitelink.link_text}}</h2>-->
+{% if error_message %}<p><strong>{{ error_message }}</strong>
+</p>{% endif %}
+<div class = "pubdate-header">{{site.pub_date}}</div>
+{% if site.name == "Daily Bruin" %}
+<a href="{% url 'scraper:dailybruin'%}" class="btn btn-primary" role ="button">Update</a>
+{% elif site.name == "Christian Science Monitor" %}
+<a href="{% url 'scraper:csmonitor'%}" class="btn btn-primary" role ="button">Update</a>
+{% elif site.name == "Engadget" %}
+<a href="{% url 'scraper:engadget'%}" class="btn btn-primary" role ="button">Update</a>
+{% endif %}
+</div>
+<!-- <div class = "site-content-container"> -->
+<div class = "sitecontainer">
+<!-- 
+<a href="{% url 'scraper:updateSite'%}" class="btn btn-primary" role ="button">Update</a> -->
+<!-- <div class="list-group" id="list-links"> -->
+<ul>
+{% for link in site.link_set.all|dictsortreversed:"pub_date" %}
+	<div class="single-article">
+		<h3>{{link.title}}</h3>
+		<p>{{link.content}} </p>
+    <a href = "{{link.address}}"> Read more... </a>
+	</div>
+{% endfor %}
+</ul>
+</div>
+<div class="container detail-tail-container">
+<a href="{% url 'scraper:index' %}" class="btn btn-primary" role ="button">Back</a>
+</div>
+</div>
+
+{% endblock %}

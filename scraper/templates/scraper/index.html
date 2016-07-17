@@ -1,0 +1,135 @@
+{% load staticfiles %}
+<!--Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+<!--from codecademy-->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<!--from codecademy-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
+<!--bootstrap-->
+<link rel="stylesheet" href="{% static 'polls/css/bootstrap.min.css' %}" />
+<!--style.css-->
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+<body>
+<!--menu is from codecademy-->
+<div class="menu">
+      
+      <!-- Menu icon -->
+      <div class="icon-close">
+        <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
+      </div>
+
+      <!-- Menu -->
+      <ul>
+      	<li><a href=''>Home</a></li>
+        <li><a href=''>Tab1</a></li>
+        <li><a href=''>Tab2</a></li>
+        <li><a href=''>Tab3</a></li>
+      </ul>
+</div>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <!--icon-menu from codecademy-->
+		<div class="icon-menu">
+	        <i class="fa fa-bars"></i>
+	        Zenon Q. Anderson
+	    </div>
+      <!--<a class="navbar-brand" href={% url 'polls:index' %}>Zenon Q Anderson</a>-->
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href=''>Web Scraper</a></li>
+        <li><a href="{% url 'polls:questions' %}">Polls</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+
+	<!--Personal Jumbotron-->
+<div class="jumbotron jumbotron-sites">
+	<div id="sitesJbox">
+
+<h1>Top News</h1>
+
+
+
+
+<div class="sitecontainer">
+	{% if top_news %}
+		<ul>
+		{% for site in top_news %}
+      <div class = "singlesite">
+			<ul><a href="{% url 'scraper:detail' site.id %}">{{site.site_text}}</a><div class = "pubdate">{{site.pub_date}}</div></ul>
+      <ul>Vote {{site.site_vote}}</ul>
+      <ul>
+          <a href = "" role="button" class = "btn btn-primary btn-sm" onclick="{{site.upVote}}">Up Vote</a>
+          <a href = "" role="button" class = "btn btn-danger btn-sm" onclick="{{site.upVote}}">Down Vote</a></ul>
+          </div>
+		{% endfor %}
+		</ul>
+	{% else %}
+		<p>No sites are available.</p>
+	{% endif %}
+
+</div>
+
+{% if top_news %}
+<form action="{% url 'scraper:voteUp'%}" method="post">
+{% csrf_token %}
+{% for site in top_news %}
+  <div class = "rdio">
+    <input type="radio" name="voteUp" id="site{{forloop.counter}}" value="{{site.id}}"/>
+    <label for="site{{ forloop.counter}}">{{site.site_text}}</label><br />
+  </div> 
+{% endfor %}
+<input type="submit" class="btn btn-primary" value="Vote Up" />
+</form>
+{% else %}
+    <p>No sites are available.</p>
+{% endif %}
+
+{% if top_news %}
+<form action="{% url 'scraper:voteDown'%}" method="post">
+{% csrf_token %}
+{% for site in top_news %}
+  <div class = "rdio">
+    <input type="radio" name="voteDown" id="site{{forloop.counter}}" value="{{site.id}}"/>
+    <label for="site{{ forloop.counter}}">{{site.site_text}}</label><br />
+  </div>
+{% endfor %}
+<input type="submit" class="btn btn-primary" value="Vote Down" />
+</form>
+{% else %}
+    <p>No sites are available.</p>
+{% endif %}
+
+{% if top_news %}
+<form action="{% url 'scraper:updateSite'%}" method="post">
+{% csrf_token %}
+{% for site in top_news %}
+<div class="rdio">
+  <input type="radio" name="updateSite" id="site{{forloop.counter}}" value="{{site.id}}"/>
+  <label for="site{{ forloop.counter}}">{{site.site_text}}</label><br />
+</div>
+{% endfor %}
+<input type="submit" class="btn btn-primary" value="Update Site" />
+</form>
+{% else %}
+    <p>No sites are available.</p>
+{% endif %}
+
+</div>
+
+<!-- From Codecademy-->
+	<script src="{% static '//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js' %}"></script>
+
+	<!-- Bootstrap-->
+	<script src="{% static '//http://code.jquery.com/jquery-1.11.3.min.js' %}"></script>
+	<script src="{% static 'polls/js/bootstrap.min.js' %}"></script>
+
+	<!--app.js-->
+	<script src="{% static 'polls/js/app.js'  %}"></script>
+
+</body>

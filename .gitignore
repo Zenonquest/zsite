@@ -1,0 +1,8 @@
+/static
+staticfiles
+local_settings.py
+.env
+old.py
+notepad.py
+venv
+private.py
