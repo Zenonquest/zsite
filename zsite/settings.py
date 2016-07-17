@@ -120,11 +120,11 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 # Allow all host headers
 ALLOWED_HOSTS = ['*']
 
-DEBUG = False
+# DEBUG = False
 
 try:
     from .local_settings import *
-except Import Error:
+except ImportError:
     pass
 
 # Static files (CSS, JavaScript, Images)
