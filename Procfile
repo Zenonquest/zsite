@@ -1,1 +1,1 @@
-web: gunicorn schedule2.wsgi --log-file -
+web: gunicorn zsite.wsgi --log-file -
