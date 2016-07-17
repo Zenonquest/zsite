@@ -18,4 +18,4 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "zsite.settings")
 
 application = get_wsgi_application()
 # application = DjangoWhiteNoise(application)
-application = CLing(get_wsgi_application())
+application = Cling(get_wsgi_application())
