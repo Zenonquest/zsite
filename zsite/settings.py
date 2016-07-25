@@ -13,11 +13,14 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 import dj_database_url
-import pdb
 
+# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+
+# BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# # PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
@@ -38,8 +41,9 @@ INSTALLED_APPS = (
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    # 'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
+    #check if necessary
+    'django.contrib.sites',
     'rest_framework',
     'polls',
     'scraper',
@@ -54,7 +58,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
+    # 'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
 )
 
@@ -63,7 +67,7 @@ ROOT_URLCONF = 'zsite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -110,10 +114,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-
 # Update database configuration with $DATABASE_URL.
-# DATABASES['default'] = dj_database_url.config()
-
+db_from_env = dj_database_url.config(conn_max_age=500)
+DATABASES['default'].update(db_from_env)
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
@@ -121,52 +124,80 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 # Allow all host headers
 ALLOWED_HOSTS = ['*']
 
-# DEBUG = False
-
-# try:
-#     from .local_settings import *
-# except ImportError:
-#     pass
-
-
-# # Static files (CSS, JavaScript, Images)
-# # https://docs.djangoproject.com/en/1.9/howto/static-files/
-# # STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
-# # STATIC_URL = '/static/'
-
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en1/.9/howto/static-files/
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
-# STATIC_URL = '/static/'
+STATIC_URL = '/static/'
 
-# # Extra places for collectstatic to find static files.
-# STATICFILES_DIRS = [
-#     os.path.join(PROJECT_ROOT, 'static'),
-# ]
+# Extra places for collectstatic to find static files.
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
 
-# # Simplified static file serving.
-# # https://warehouse.python.org/project/whitenoise/
-# STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+# Simplified static file serving.
+# https://warehouse.python.org/project/whitenoise/
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
 
-# import os
-# BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# # Update database configuration with $DATABASE_URL.
+# # DATABASES['default'] = dj_database_url.config()
 
-# PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
-# STATIC_ROOT = 'staticfiles'
-STATIC_URL = '/static/'
+# # Honor the 'X-Forwarded-Proto' header for request.is_secure()
+# SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+# # Allow all host headers
+# ALLOWED_HOSTS = ['*']
+
+# # DEBUG = False
+
+# # try:
+# #     from .local_settings import *
+# # except ImportError:
+# #     pass
+
+
+# # # Static files (CSS, JavaScript, Images)
+# # # https://docs.djangoproject.com/en/1.9/howto/static-files/
+# # # STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
+# # # STATIC_URL = '/static/'
+
+# STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
+# # STATIC_URL = '/static/'
+
+# # # Extra places for collectstatic to find static files.
+# # STATICFILES_DIRS = [
+# #     os.path.join(PROJECT_ROOT, 'static'),
+# # ]
+
+# # # Simplified static file serving.
+# # # https://warehouse.python.org/project/whitenoise/
+# # STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
+
+# CORS_ORIGIN_ALLOW_ALL = True
+# CORS_ALLOW_CREDENTIALS = True
+
+# # import os
+# # BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# # PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+
+# # STATIC_ROOT = 'staticfiles'
+# STATIC_URL = '/static/'
+
+# # STATICFILES_DIRS = (
+# #     os.path.join(BASE_DIR, 'static'),
+# # )
 
 # STATICFILES_DIRS = (
-#     os.path.join(BASE_DIR, 'static'),
+#     os.path.join(PROJECT_ROOT, 'static'),
 # )
 
-STATICFILES_DIRS = (
-    os.path.join(PROJECT_ROOT, 'static'),
-)
+# STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
-
-db_from_env = dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(db_from_env)
+# db_from_env = dj_database_url.config(conn_max_age=500)
+# DATABASES['default'].update(db_from_env)
