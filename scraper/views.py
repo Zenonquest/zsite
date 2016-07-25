@@ -195,7 +195,7 @@ def updateDailyBruin():
             # serializer.save()
         except:
             pass
-    site.updateDate()
+    s.updateDate()
     return
 
 ###csmonitor
