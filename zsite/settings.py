@@ -37,8 +37,6 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #check if necessary
-    # 'django.contrib.sites',
     'rest_framework',
     'polls',
     'scraper',
