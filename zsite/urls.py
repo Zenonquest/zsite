@@ -15,19 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import include, url, patterns
 from django.contrib import admin
-# from django.conf import settings
 
 urlpatterns = [
 	url(r'^polls/', include('polls.urls', namespace="polls")),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^scraper/', include('scraper.urls', namespace="scraper")),
-    # url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
-    # url(r'^checkers/', include('checkers.urls', namespace="checkers")),
-    # url(r'^links/', include('links.urls', namespace="links")),
-    # url(r'^gmaps/', include('gmaps.urls', namespace="gmaps"))
 ]
 
-# if not settings.DEBUG:
-#     urlpatterns += patterns('',
-#         (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
-#     )
