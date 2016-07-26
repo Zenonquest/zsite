@@ -250,3 +250,7 @@ def updateEngadget():
             pass
     site.updateDate()
     return
+
+#about me
+def aboutme(request):
+    return render(request, 'scraper/aboutme.html')
