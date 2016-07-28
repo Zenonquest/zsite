@@ -241,11 +241,9 @@ h1{
   margin-top:-5px;
 }
 
-form {
-    /* Just to center the form on the page */
-    /*margin: 0 auto;*/
+/*form {
+
     width: 300px;
-    /* To see the outline of the form */
     padding: 20px;
     margin-left: 40px;
     border: 1px solid #CCC;
@@ -255,7 +253,7 @@ form {
 
 form div + div {
     margin-top: 1em;
-}
+}*/
 
 
 label {
@@ -324,6 +322,10 @@ textarea {
 .whitecontainer label{
   width:100px;
   color: black;
+}
+
+.whitecontainer input {
+  width: auto;
 }
 
 .button {
