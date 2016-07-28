@@ -16,13 +16,13 @@ class IndexView(generic.ListView):
         """Return the last five published questions."""
         return Question.objects.filter(pub_date__lte=timezone.now()).order_by('-pub_date')[:5]
 
-class QuestionView(generic.ListView):
-    template_name = 'polls/question.html'
-    context_object_name = 'latest_question_list'
+# class QuestionView(generic.ListView):
+#     template_name = 'polls/question.html'
+#     context_object_name = 'latest_question_list'
 
-    def get_queryset(self):
-        """Return the last five published questions."""
-        return Question.objects.filter(pub_date__lte=timezone.now()).order_by('-pub_date')[:5]
+#     def get_queryset(self):
+#         """Return the last five published questions."""
+#         return Question.objects.filter(pub_date__lte=timezone.now()).order_by('-pub_date')[:5]
 
 class DetailView(generic.DetailView):
     model = Question
@@ -50,17 +50,17 @@ def vote(request, question_id):
 		selected_choice.save()
 		return HttpResponseRedirect(reverse('polls:results',args=(p.id,)))
 
-def about_page(request):
-	return render(request, 'polls/about.html')
+# def about_page(request):
+# 	return render(request, 'polls/about.html')
 
-def thanks_page(request):
-	return render(request, 'polls/thanks.html')
+# def thanks_page(request):
+# 	return render(request, 'polls/thanks.html')
 
-def blog_page(request):
-	return render(request, 'polls/blog.html')
+# def blog_page(request):
+# 	return render(request, 'polls/blog.html')
 
-def questions_page(request):
-	return render(request, 'polls/questions.html')
+# def questions_page(request):
+# 	return render(request, 'polls/questions.html')
 
-def contacts_page(request):
-	return render(request, 'polls/contacts.html')
+# def contacts_page(request):
+# 	return render(request, 'polls/contacts.html')
