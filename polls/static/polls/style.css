@@ -342,3 +342,32 @@ button {
 .whitecontainer .button{
   padding-left: 10px;
 }
+
+.menu {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+  margin-top: -70px;
+}
+
+.pubdate-header {
+  padding: 5px;
+}
+
+.navbar-right a {
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+  font-size: 30px;
+  color:white;
+}
+
+.icon-menu{
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+  font-size: 30px;
+  line-height: 1.5;
+  padding-left:16px;
+  padding-right:16px;
+  padding-bottom:0px;
+  margin-left:-20px;
+}
