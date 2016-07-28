@@ -313,7 +313,7 @@ textarea {
     resize: vertical;
 }
 
-.whitecontainer textarea,input{
+.whitecontainer textarea{
   width: 200px;
   margin: auto;
   color: black;
@@ -325,7 +325,7 @@ textarea {
 }
 
 .whitecontainer input {
-  width: auto;
+  width: 50px;
 }
 
 .button {

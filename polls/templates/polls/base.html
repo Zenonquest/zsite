@@ -7,9 +7,9 @@
 <!--from codecademy-->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
 <!--bootstrap-->
-<link rel="stylesheet" href="{% static 'scraper/css/bootstrap.min.css' %}" />
+<link rel="stylesheet" href="{% static 'polls/css/bootstrap.min.css' %}" />
 <!--style.css-->
-<link rel="stylesheet" type="text/css" href="{% static 'scraper/css/style.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'polls/css/style.css' %}" />
 <body>
 <!--menu is from codecademy-->
 <div class="menu">
@@ -38,10 +38,10 @@
     </div>
     <div>
       <ul class="nav navbar-nav">
-        <li {% if request.path == '/polls/' %} class="active" {% endif %} ><a href="/scraper/">Home</a></li>
-        <li {% if request.path == '/polls/2/' %} class="active" {% endif %} ><a href="/scraper/2/">Second</a></li>
-        <li {% if request.path == '/polls/3/' %} class="active" {% endif %} ><a href="/scraper/3/">Third</a></li>
-        <li {% if request.path == '/polls/1/' %} class="active" {% endif %} ><a href="/scraper/1/">First</a></li>
+        <li {% if request.path == '/polls/' %} class="active" {% endif %} ><a href="/polls/">Home</a></li>
+        <li {% if request.path == '/polls/2/' %} class="active" {% endif %} ><a href="/polls/2/">Second</a></li>
+        <li {% if request.path == '/polls/3/' %} class="active" {% endif %} ><a href="/polls/3/">Third</a></li>
+        <li {% if request.path == '/polls/1/' %} class="active" {% endif %} ><a href="/polls/1/">First</a></li>
         <!-- <li {% if request.path == '/polls/' %} class="active" {% endif %} ><a href="{% url 'polls:questions' %}">Polls</a></li>  -->
         {% if request.path == '/polls/[0-9]' %}
         <li class="active"><a href="">Test Detail</a></li>
