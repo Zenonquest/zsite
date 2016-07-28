@@ -282,7 +282,7 @@ input:focus, textarea:focus {
 }
 
 input{
-    /*color: green;*/
+    color: black;
     margin-left:10px;
     margin-top: 10px;
 }
