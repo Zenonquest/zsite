@@ -261,7 +261,7 @@ label {
     text-align: left;
 }
 
-input, textarea {
+textarea {
     /* To make sure that all text fields have the same font settings
        By default, textareas have a monospace font */
     font: 1em sans-serif;
@@ -282,12 +282,12 @@ input:focus, textarea:focus {
 }
 
 input{
-    color: green;
+    /*color: green;*/
     margin-left:10px;
     margin-top: 10px;
 }
 
-.rdio input{
+.radio input{
   width:40px;
   padding-left: 0px;
   margin-top: 0px;
