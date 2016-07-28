@@ -122,13 +122,13 @@ def updateSite(request):
 
 # GET: returns 5 most recent articles for dailybruin
 # UPDATE: updates 5 most recent articles for dailybruin
-@api_view(['GET', 'UPDATE'])
+@api_view(['GET'])
 def dailybruin(request):
     site = Site.objects.get(name="Daily Bruin")
     if request.method == 'GET':
         updateDailyBruin()
-        return HttpResponse('I\'m a teapot short and stout.', status=418)
-        # return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
+        # return HttpResponse('I\'m a teapot short and stout.', status=418)
+        return HttpResponseRedirect(reverse('scraper:detail', args=(site.id,)))
 
 @api_view(['GET']) 
 def csmonitor(request):
