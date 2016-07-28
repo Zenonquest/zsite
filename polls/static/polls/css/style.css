@@ -5,19 +5,17 @@ li a {
 
 
 
-/*Edited body from Codecademy*/
 body{
   background-color:#202024;
-	/*background:  url('images/woodbg.gif') no-repeat center center fixed;*/
   -webkit-background-size: cover; /* For WebKit*/
   -moz-background-size: cover;    /* Mozilla*/
   -o-background-size: cover;      /* Opera*/
   background-size: cover;         /* Generic*/
-	left: 0;
-  margin: 0;
-	overflow: auto;
+  left: 0;
+  overflow: auto;
   position: relative;
   color: white;
+  padding-top: 70px;
 
 }
 
@@ -354,6 +352,11 @@ button {
 
 .pubdate-header {
   padding: 5px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+  font-family: 'Roboto',sans-serif;
 }
 
 .navbar-right a {
