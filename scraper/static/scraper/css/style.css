@@ -392,3 +392,10 @@ button {
 .whitecontainer .button{
   padding-left: 10px;
 }
+
+#aboutme-pic {
+  padding: 5px;
+  width: auto;
+  height: auto;
+
+}
