@@ -393,9 +393,8 @@ button {
   padding-left: 10px;
 }
 
-#aboutme-pic {
-  padding: 5px;
-  width: auto;
-  height: auto;
-
+.profile-pic {
+  left-margin:auto;
+  right-margin:auto;
+  display: block;
 }
