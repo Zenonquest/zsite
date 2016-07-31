@@ -15,10 +15,13 @@ Including another URLconf
 """
 from django.conf.urls import include, url, patterns
 from django.contrib import admin
-
+from .scraper import views
 urlpatterns = [
+    url(r'^/', views.aboutme, name='aboutme'),
 	url(r'^polls/', include('polls.urls', namespace="polls")),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^scraper/', include('scraper.urls', namespace="scraper")),
+
+
 ]
 

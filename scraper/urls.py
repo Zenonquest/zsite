@@ -12,6 +12,6 @@ urlpatterns = [
 	url(r'^api/csmonitor/$', views.csmonitor, name='csmonitor'),
 	url(r'^api/engadget/$', views.engadget, name='engadget'),
 
-	url(r'^aboutme/$', views.aboutme, name='aboutme'),
+	# url(r'^aboutme/$', views.aboutme, name='aboutme'),
 
 ]
