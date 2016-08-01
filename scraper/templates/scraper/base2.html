@@ -7,9 +7,9 @@
 <!--from codecademy-->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
 <!--bootstrap-->
-<link rel="stylesheet" href="{% static 'polls/css/bootstrap.min.css' %}" />
+<link rel="stylesheet" href="{% static 'scraper/css/bootstrap.min.css' %}" />
 <!--style.css-->
-<link rel="stylesheet" type="text/css" href="{% static 'polls/css/style.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'scraper/css/style.css' %}" />
 <body>
 <!--menu is from codecademy-->
 <div class="menu">
@@ -34,22 +34,20 @@
     <div class="navbar-header">
       <div class="icon-menu">
           <i class="fa fa-bars"></i>
-          Questionaire
+          News Scraper
       </div>
     </div>
     <div>
       <ul class="nav navbar-nav">
-        <li {% if request.path == '/polls/' %} class="active" {% endif %} ><a href="/polls/">Home</a></li>
-        <li {% if request.path == '/polls/6/' %} class="active" {% endif %} ><a href="/polls/6/">Season</a></li>
-        <li {% if request.path == '/polls/2/' %} class="active" {% endif %} ><a href="/polls/2/">President</a></li>
-        <li {% if request.path == '/polls/5/' %} class="active" {% endif %} ><a href="/polls/5/">Olympics</a></li>
-        <!-- <li {% if request.path == '/polls/' %} class="active" {% endif %} ><a href="{% url 'polls:questions' %}">Polls</a></li>  -->
-        {% if request.path == '/polls/[0-9]' %}
-        <li class="active"><a href="">Test Detail</a></li>
-        {% endif %}
+        <li><a href="/">Apps:</a></li>
+        <li><a href="http://sm-webapp.s3-website-us-west-1.amazonaws.com/#/login">Scheduler</a></li>
+        <li><a href="https://questblog.herokuapp.com/">Microblog</a></li>
+        <li><a href="https://zsite.herokuapp.com/scraper/">News Scraper</a></li>
+        <li><a href="https://zsite.herokuapp.com/polls/">Questionnaire</a></li>
+        <li><a href="http://www.fitconnectapp.us/">FitConnect</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right" > 
-          <li><a href="{% url 'polls:index' %}">Zenon Q. Anderson</a></li>     
+          <li><a href="{% url 'scraper:index' %}">Zenon Q. Anderson</a></li>     
       </ul>
     </div>
   </div>
@@ -68,6 +66,7 @@
 <script src="{% static '//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js' %}"></script>
 
 <!-- Bootstrap-->
+<!-- <script src="{% static '//http://code.jquery.com/jquery-1.11.3.min.js' %}"></script> -->
 <script src="{% static 'polls/js/bootstrap.min.js' %}"></script>
 
 <!--app.js-->
