@@ -393,7 +393,7 @@ button {
   padding-left: 10px;
 }
 
-.profile-pic {
+#profile-pic {
   left-margin:auto;
   right-margin:auto;
   display: block;
