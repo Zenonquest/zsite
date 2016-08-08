@@ -399,3 +399,7 @@ button {
   display: block;
   width: 25%;
 }
+
+#aboutme-apps a {
+  color: white;
+}
